@@ -1616,7 +1616,7 @@ not implemented
 					<condition var1="tw_multirom_sailfish_supported" var2="1"/>
 					<condition var1="tw_multirom_type" var2="5"/>
 				</conditions>
-				<placement x="%indent%" y="%row6_y%" textplacement="6"/>
+				<placement x="%indent%" y="%row7a_y%" textplacement="6"/>
 				<text>SailfishOS</text>
 				<image resource="radio_true"/>
 				<actions>
@@ -1630,7 +1630,7 @@ not implemented
 					<condition var1="tw_multirom_sailfish_supported" var2="1"/>
 					<condition var1="tw_multirom_type" var2="5" op="!="/>
 				</conditions>
-				<placement x="%indent%" y="%row6_y%" textplacement="6"/>
+				<placement x="%indent%" y="%row7a_y%" textplacement="6"/>
 				<text>SailfishOS</text>
 				<image resource="radio_false"/>
 				<actions>
@@ -1641,7 +1641,7 @@ not implemented
 
 			<partitionlist style="listbox">
 				<text>Install to:</text>
-				<placement x="%indent%" y="%row8_y%" w="%content_width%" h="%partitionlist_mount_height%"/>
+				<placement x="%indent%" y="%row9_y%" w="%content_width%" h="%partitionlist_mount_height%"/>
 				<data name="tw_multirom_storage_path" />
 				<listtype name="multirom_storage"/>
 			</partitionlist>
@@ -1768,7 +1768,7 @@ not implemented
 			<text style="text_m">
 				<condition var1="tw_multirom_type" var2="3"/>
 				<placement x="%col1_x_header%" y="%row4_header_y%"/>
-				<text>Select Ubuntu Image from %tw_storage_display_name%</text>
+				<text>Select MultiROM mrom from %tw_storage_display_name%</text>
 			</text>
 
 			<text style="text_m">
